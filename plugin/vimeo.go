@@ -9,7 +9,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/JohannesKaufmann/html-to-markdown"
+	"github.com/chamilad/html-to-markdown"
 	"github.com/PuerkitoBio/goquery"
 )
 

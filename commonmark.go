@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/JohannesKaufmann/html-to-markdown/escape"
+	"github.com/chamilad/html-to-markdown/escape"
 	"github.com/PuerkitoBio/goquery"
 )
 

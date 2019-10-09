@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/JohannesKaufmann/html-to-markdown"
+	"github.com/chamilad/html-to-markdown"
 	"github.com/PuerkitoBio/goquery"
 )
 
