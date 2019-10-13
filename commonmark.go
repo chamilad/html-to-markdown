@@ -187,6 +187,8 @@ var commonmark = []Rule{
 				code = selec.Text()
 			}
 
+			fmt.Printf("Preformated: %s", code)
+
 			text := "\n\n" + opt.Fence + language + "\n" +
 				strings.ReplaceAll(code, "<br>", "\n") +
 				"\n" + opt.Fence + "\n\n"
