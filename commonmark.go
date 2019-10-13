@@ -188,7 +188,7 @@ var commonmark = []Rule{
 			}
 
 			text := "\n\n" + opt.Fence + language + "\n" +
-				code +
+				strings.ReplaceAll(code, "<br>", "\n") +
 				"\n" + opt.Fence + "\n\n"
 			return &text
 		},
